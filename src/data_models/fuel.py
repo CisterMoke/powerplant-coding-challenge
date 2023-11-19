@@ -11,7 +11,7 @@ class FuelType(str, Enum):
 
 
 class FuelUnit(str, Enum):
-    EUROMWH = 'euro/MwH'
+    EUROMWH = 'euro/MWh'
     EUROTON = 'euro/ton'
     PERCENT = '%'
 
