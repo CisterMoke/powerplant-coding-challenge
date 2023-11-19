@@ -16,7 +16,8 @@ class FuelUnit(str, Enum):
     PERCENT = '%'
 
 
-class Fuel(BaseModel):
+class FuelSupply(BaseModel):
     type: FuelType
     unit: FuelUnit
-    amount: float
+    cost: float
+    available: float
