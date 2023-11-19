@@ -1,5 +1,5 @@
 # powerplant-coding-challenge
-Submission for the GEM SPaaS powerplant coding challenge.
+Submission for the GEM-SPaaS [powerplant coding challenge](https://github.com/gem-spaas/powerplant-coding-challenge).
 
 ### Installation
 The submission is written in Python 3.10 and makes use of on [fastAPI](https://fastapi.tiangolo.com/) and [pydantic](https://pydantic.dev/).
@@ -17,7 +17,9 @@ Once your Python environment is setup and you've downloaded the source code, the
 python <path_to_project>/main.py
 ```
 
-By default, the REST API is exposed on `http://localhost:8888`. The host and port can respectively configured by setting the `APP_HOST` and `APP_PORT` environment variables.
+By default, the REST API is exposed on `http://0.0.0.0:8888`. The host and port can respectively configured by setting the `APP_HOST` and `APP_PORT` environment variables.
+
+**The original description of the challenge starts here**
 
 ## Welcome !
 
