@@ -1,5 +1,23 @@
 # powerplant-coding-challenge
+Submission for the GEM SPaaS powerplant coding challenge.
 
+### Installation
+The submission is written in Python 3.10 and makes use of on [fastAPI](https://fastapi.tiangolo.com/) and [pydantic](https://pydantic.dev/).
+
+To run the application, make sure you have Python 3.10.x (or higher) installed on your system. ([download link](https://www.python.org/downloads/))
+
+Once Python is setup, run the following command in your terminal of preference.
+```
+pip install -r requirements.txt
+```
+
+### Deployment
+Once your Python environment is setup and you've downloaded the source code, the service can be easily run from the command line with the following command.
+```
+python <path_to_project>/main.py
+```
+
+By default, the REST API is exposed on `http://localhost:8888`. The host and port can respectively configured by setting the `APP_HOST` and `APP_PORT` environment variables.
 
 ## Welcome !
 
